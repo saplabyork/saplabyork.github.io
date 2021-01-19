@@ -3,7 +3,7 @@ html, body {
 }
 
 h1 {
-  color: rgb(230, 0, 0);
+  color: rgb(240, 0, 0);
   font-weight: 900 !important;
 }
 
@@ -41,10 +41,10 @@ h1 {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: rgb(230, 0, 0);
+  background-color: rgb(240, 0, 0);
 }
 
 .navbar-nav > li > a.active {
-  color: rgb(230, 0, 0) !important;
+  color: rgb(240, 0, 0) !important;
   font-weight: 600;
 }
