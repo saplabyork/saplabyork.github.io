@@ -1,0 +1,23 @@
+.bg-primary {
+  background-color: rgb(245, 0, 0) !important;
+}
+
+.nav-link {
+  color: rgb(68, 68, 68) !important;
+}
+
+.nav-pills > li > a.active {
+  background-color: rgb(245, 0, 0) !important;
+  color: white !important;
+}
+
+h1 {
+  font-variant: small-caps;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
