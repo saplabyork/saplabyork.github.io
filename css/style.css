@@ -1,23 +1,50 @@
-.bg-primary {
-  background-color: rgb(245, 0, 0) !important;
-}
-
-.nav-link {
-  color: rgb(68, 68, 68) !important;
-}
-
-.nav-pills > li > a.active {
-  background-color: rgb(245, 0, 0) !important;
-  color: white !important;
+html, body {
+  height: 100%; /* to allow for vertical centering */
 }
 
 h1 {
-  font-variant: small-caps;
+  color: rgb(230, 0, 0);
+  font-weight: 900 !important;
 }
 
-footer {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-top: 25px;
-  text-align: center;
+.faded-line {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, rgb(109, 109, 109), transparent);
+}
+
+.faded-line img {
+  display: flex; /* for centering the image on the page */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -13px; /* center image with line horizontally */
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: white;
+  height: 30px;
+}
+
+.nav-item {
+  position: relative; /* to allow underline of active nav-links */
+}
+
+.nav-link {
+  color: rgb(82, 82, 82)
+}
+
+.navbar-nav > li > a.active::after { /* underline the active link */
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(230, 0, 0);
+}
+
+.navbar-nav > li > a.active {
+  color: rgb(230, 0, 0) !important;
+  font-weight: 600;
 }
