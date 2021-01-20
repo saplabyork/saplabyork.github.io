@@ -5,6 +5,7 @@ html, body {
 h1 {
   color: rgb(240, 0, 0);
   font-weight: 900 !important;
+  margin-top: 30px;
 }
 
 .faded-line {
