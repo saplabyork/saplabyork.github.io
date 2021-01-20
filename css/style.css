@@ -59,12 +59,10 @@ h1 {
   margin-bottom: 15px;
 }
 
-a {
-  color:rgb(0, 0, 0);
+.card-img-max {
+  max-width: 200px;
 }
 
-.faded-vertical-divide {
-  height: 100%;
-  width: 100px;
-	background-image: linear-gradient(to bottom, rgb(109, 109, 109), transparent);
+a {
+  color:rgb(0, 0, 0);
 }
