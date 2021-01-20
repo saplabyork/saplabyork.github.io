@@ -49,7 +49,7 @@ h1 {
   font-weight: 600;
 }
 
-.card-wrapper {
+.content-wrapper {
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -61,4 +61,10 @@ h1 {
 
 a {
   color:rgb(0, 0, 0);
+}
+
+.faded-vertical-divide {
+  height: 100%;
+  width: 100px;
+	background-image: linear-gradient(to bottom, rgb(109, 109, 109), transparent);
 }
