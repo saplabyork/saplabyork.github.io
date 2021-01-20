@@ -2,7 +2,7 @@ html, body {
   height: 100%; /* to allow for vertical centering */
 }
 
-h1 {
+.all-pages-h1 {
   color: rgb(240, 0, 0);
   font-weight: 900 !important;
   margin-top: 30px;
