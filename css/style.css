@@ -11,6 +11,18 @@ html, body {
   margin-top: 30px;
 }
 
+@media screen and (max-width: 500px) {
+  .container.justify-content-center {
+    justify-content: flex-start !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .all-pages-h1 {
+    margin-top: 10px;
+  }
+}
+
 .faded-line {
   width: 90%;
   margin-top: 10px;
