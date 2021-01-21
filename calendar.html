@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <!-- partial:index.partial.html -->
     <div class="container d-flex flex-column h-100">
+        <!-- container for header elements: title, line, navbar -->
         <div class="container d-flex flex-column align-items-center">
             <h1 class="all-pages-h1 non-frontpage-h1">Speech and Psycholinguistics Lab at York</h1>
             <div class="faded-line"><img src="./img/logo.jpeg"></div>
@@ -29,7 +29,9 @@
             </nav>
         </div>
         <div class="content-wrapper" style="width: 100%;">
+            <!-- calendar -->
             <div id="calendar" class="container"></div>
+            <!-- footer -->
             <footer class="bg-light fixed-bottom">
                 <div class="text-center text-muted">
                     127-128 Founders College, York University | email: <a class="text-dark"
@@ -40,6 +42,7 @@
     </div>
     <script src="./lib/js/bootstrap.min.js"></script>
     <script src="./lib/js/fullcalendar.min.js"></script>
+    <!-- script for creating the calendar -->
     <script>
 
         document.addEventListener('DOMContentLoaded', function () {
@@ -66,7 +69,7 @@
 
                 eventClick: function (arg) {
 
-                    // opens events in a popup window
+                    // opens events in a new tab
                     window.open(arg.event.url, '_blank');
 
                     // prevents current tab from navigating

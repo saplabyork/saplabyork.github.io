@@ -11,14 +11,14 @@ html, body {
 }
 
 @media screen and (max-width: 500px) {
-  .container.justify-content-center {
+  .container.justify-content-center { /* don't vertically center container on small screens */
     justify-content: flex-start !important;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { 
   .all-pages-h1 {
-    margin-top: 10px;
+    margin-top: 10px; /* reduce space above header on smaller screens */
   }
 }
 
@@ -41,14 +41,14 @@ html, body {
   height: 30px;
 }
 
-.content-wrapper {
+.content-wrapper { /* add padding below navbar and above footer */
   padding-top: 20px;
   padding-bottom: 30px;
 }
 
 @media screen and (max-width: 500px) {
   .content-wrapper {
-    padding-bottom: 50px !important;
+    padding-bottom: 50px !important; /* add more bottom padding for smaller screens */
   }
 }
 
@@ -70,6 +70,8 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+/* BOOTSTRAP MODIFICATIONS */
 
 .nav-item {
   position: relative; /* to allow underline of active nav-links */
@@ -107,7 +109,7 @@ a {
   color:rgb(0, 0, 0);
 }
 
-/* FullCalendar Class Changes */
+/* FULLCALENDAR MODIFICATIONS */
 
 .fc .fc-button-primary {
   background-color: #f00000;
