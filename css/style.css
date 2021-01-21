@@ -70,3 +70,28 @@ html, body {
 a {
   color:rgb(0, 0, 0);
 }
+
+/* FullCalendar Class Changes */
+
+.fc .fc-button-primary {
+  background-color: #f00000;
+  border-color: #be0101;
+}
+
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active {
+  background-color: #9c0000;
+  border-color: #be0101;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: rgba(255, 122, 122, 0.15);
+}
+
+.fc .fc-scrollgrid table {
+  background-color: rgb(252, 252, 252);
+}
+
+.fc .fc-toolbar-title {
+  font-family: sans-serif;
+  font-weight: 700;
+}
