@@ -53,6 +53,25 @@ html, body {
   }
 }
 
+.responsive-iframe-container {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); 
+  position: relative;  /* responsiveness */
+  overflow: hidden;    /*       |        */
+  width: 100%;         /*       |        */
+  padding-top: 56.25%; /*       v        */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .nav-item {
   position: relative; /* to allow underline of active nav-links */
 }
