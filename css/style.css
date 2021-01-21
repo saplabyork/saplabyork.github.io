@@ -30,6 +30,17 @@ html, body {
   height: 30px;
 }
 
+.content-wrapper {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .content-wrapper {
+    padding-bottom: 50px !important;
+  }
+}
+
 .nav-item {
   position: relative; /* to allow underline of active nav-links */
 }
@@ -51,11 +62,6 @@ html, body {
 .navbar-nav > li > a.active {
   color: rgb(240, 0, 0) !important;
   font-weight: 600;
-}
-
-.content-wrapper {
-  padding-top: 20px;
-  padding-bottom: 30px;
 }
 
 .card {
