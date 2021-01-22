@@ -22,22 +22,18 @@ html, body {
   }
 }
 
-.faded-line {
-  width: 90%;
-  margin-top: 10px;
-  margin-bottom: 20px;
-	height: 2px;
-	background-image: linear-gradient(to right, transparent, rgb(109, 109, 109), transparent);
+.line {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, transparent, rgb(109, 109, 109), transparent) 0 0 100%;
+  text-align:center;
+  height:16px;
+  margin-bottom:16px;
 }
 
-.faded-line img {
-  display: flex; /* for centering the image on the page */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -13px; /* center image with line horizontally */
-  padding-right: 10px;
-  padding-left: 10px;
-  background-color: white;
+.lineImg {
+  background-color:white;
+  padding:0px 5px 0px 5px;
   height: 30px;
 }
 
