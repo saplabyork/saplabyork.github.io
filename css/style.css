@@ -9,6 +9,16 @@ html, body {
   height: 100%;
 }
 
+.frontpage-container > div:first-child {
+  flex-shrink: 0;
+}
+
+/* .frontpage-container {
+  display: grid;
+  place-items: center;
+  height: 100%;
+} */
+
 .all-pages-h1 {
   color: rgb(240, 0, 0);
 }
