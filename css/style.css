@@ -65,6 +65,14 @@ html, body {
   }
 }
 
+.people-column-left {
+  text-align: right;
+}
+
+.people-column-right {
+  text-align: left;
+}
+
 .responsive-iframe-container {
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%); 
