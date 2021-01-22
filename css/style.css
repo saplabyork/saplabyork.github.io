@@ -37,9 +37,9 @@ html, body {
   border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, transparent, rgb(109, 109, 109), transparent) 0 0 100%;
-  text-align:center;
-  height:16px;
-  margin-bottom:16px;
+  text-align: center;
+  height: 16px;
+  margin-bottom: 16px;
 }
 
 .lineImg {
