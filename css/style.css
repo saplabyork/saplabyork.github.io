@@ -2,6 +2,13 @@ html, body {
   height: 100%; /* to allow for vertical centering */
 }
 
+.frontpage-container {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  height: 100%;
+}
+
 .all-pages-h1 {
   color: rgb(240, 0, 0);
 }
@@ -11,8 +18,8 @@ html, body {
 }
 
 @media screen and (max-width: 500px) {
-  .container.justify-content-center { /* don't vertically center container on small screens */
-    justify-content: flex-start !important;
+  .frontpage-container { /* don't vertically center container on small screens */
+    justify-content: flex-start;
   }
 }
 
@@ -38,7 +45,7 @@ html, body {
 }
 
 .content-wrapper { /* add padding below navbar and above footer */
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 30px;
 }
 
