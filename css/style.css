@@ -73,6 +73,12 @@ html, body {
   text-align: left;
 }
 
+@media screen and (max-width: 775px) {
+  .people-column-left, .people-column-right {
+    text-align: center;
+  }
+}
+
 .responsive-iframe-container {
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%); 
